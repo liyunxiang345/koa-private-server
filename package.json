@@ -1,0 +1,23 @@
+{
+  "name": "koa-private-server",
+  "version": "1.0.0",
+  "description": "个人网站后端代码",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "dependencies": {
+    "koa": "2.0.0",
+    "koa-router": "^9.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liyunxiang345/koa-private-server.git"
+  },
+  "author": "Leeyunxiang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liyunxiang345/koa-private-server/issues"
+  },
+  "homepage": "https://github.com/liyunxiang345/koa-private-server#readme"
+}
