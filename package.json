@@ -4,11 +4,18 @@
   "description": "个人网站后端代码",
   "main": "app.js",
   "scripts": {
-    "test": "test"
+    "start": "node app.js"
   },
   "dependencies": {
+    "https": "^1.0.0",
     "koa": "2.0.0",
-    "koa-router": "^9.4.0"
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^9.4.0",
+    "koa2-cors": "^2.0.6",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.8.1",
+    "querystring": "^0.2.0",
+    "xss": "^1.0.6"
   },
   "repository": {
     "type": "git",

@@ -4,7 +4,7 @@ module.exports = () => {
   page.get('/404', async ( ctx )=>{  
     ctx.body = '404 page!'  
   })  
-  page.get('helloworld', async ( ctx )=>{  
+  page.get('/helloworld', async ( ctx )=>{  
     ctx.body = 'helloworld page!'  
   })  
   
