@@ -5,8 +5,7 @@ const cors = require('koa2-cors');
 const bodyParser = require('koa-bodyparser');
 const mongoose = require('mongoose');
 const router = require('./routes/index')();  
-// const MONGO_BASE_URL = 'mongodb://localhost/cloudsor';
-const MONGO_BASE_URL = 'mongodb://127.0.0.1:27017/local';
+const MONGO_BASE_URL = 'mongodb://localhost/cloudsor';
 
 const MONGO_BASE_OPT = {
     useNewUrlParser: true,
